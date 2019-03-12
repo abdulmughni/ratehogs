@@ -1,0 +1,141 @@
+
+
+button {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+  
+  button:active {
+    box-shadow: inset 0px 0px 80px 0px rgba(0,0,0,0.25);
+  }
+  
+  #wrapper {
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #app {
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  
+  .calculator {
+    width:305px;
+    height: auto;
+    background: #ffffff;
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #wrapper .calculator {
+    box-shadow: 0px 0px 20px 0px #aaa;
+  }
+  
+  .calculator-display {
+    color: #000000;
+    font-size: 2em;
+    line-height: 0px;
+      padding: 10px;
+  }
+  
+  .auto-scaling-text {
+    display: inline-block;
+  }
+  
+  .calculator-display .auto-scaling-text {
+    padding: 0 30px;
+    position: absolute;
+    right: 15px;
+    -webkit-transform-origin: right;
+    transform-origin: right;
+  }
+  
+  .calculator-keypad {
+    height: auto;
+    
+    display: flex;
+    padding: 20px 20px 5px 20px; 
+  }
+  
+  .calculator .input-keys {
+    width: 270px;
+  }
+  
+  .calculator .function-keys {
+    display: flex;
+  }
+  
+  .calculator .digit-keys {
+    background: #ffffff;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .calculator-key {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #777;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%; 
+  }
+  .calculator .function-keys .calculator-key {
+    font-size: 1em;
+    margin-right: 10px;
+  }
+  .calculator .function-keys .key-multiply {
+    line-height: 50px;
+  }
+  .calculator .digit-keys .calculator-key {
+    font-size: 1em;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .calculator .digit-keys .key-0 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+  }
+  .calculator .digit-keys .key-dot {
+   
+    font-size: 1em;
+  }
+  .calculator .operator-keys .calculator-key {
+    color: #000;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .calculator .function-keys {
+    background: #ffffff;
+    margin-bottom: 10px;
+  }
+  .convert-keys {
+    background-color: #ff871d;
+    text-align: center;
+    width: 100%;
+  }
+  .convert-keys .calculator-key {
+     width: 100%;
+      height: auto;
+      border: none;
+      text-align: center;
+      line-height: 50px;
+      color: #fff;
+      border-radius: 0%;
+  }

@@ -1,0 +1,33 @@
+.nav-button {
+    background-color: #31a0ef;
+    border-radius: 33px;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+.rh-navbar {
+    box-shadow: none;
+}
+
+.nav-button:hover {
+    background-color: #46b2ff;
+}
+
+.rh-navbar .nav-link {
+    color: #333333 !important;
+    padding: 10px 14px !important;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar.navbar-dark .navbar-toggler {
+    background: #33a4f4;
+}
+
+@media (max-width: 768px) {
+    .rh-navbar .navbar-collapse {
+        margin-top: 15px;
+        border-top: solid 1px #cccccc;
+    }
+}

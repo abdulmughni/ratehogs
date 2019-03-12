@@ -1,0 +1,44 @@
+.preset-sec {
+    padding: 1rem 2rem;
+}
+.po-radio .form-control {
+    display: inherit;
+    width: auto;
+    height: auto;
+}    
+.po-radio .form-check, .po-form label {
+    padding-left: 1.25rem;
+}
+.po-radio .form-check-input {
+    margin-left: auto;
+    box-shadow: none;
+}  
+.po-forgotpass {
+    float: right;
+    
+}
+.po-form .col-md-12 {
+    margin: 0 0 15px;
+}
+.input-width {width:100%;}
+.package-plan .hs-pills-tabs li {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.package-plan .hs-pills-tabs {
+    border-bottom: 1px solid #999999;
+}
+.package-plan .hs-pills-tabs li a:hover, .package-plan .hs-pills-tabs li a.active {
+    border-bottom: solid 2px #000000;
+}
+.input-icon {
+    position: relative;
+}
+.input-icon  i {
+    position: absolute;
+    right: 18px;
+    top: 47px;
+    color: #000000;
+    font-size: 12px;
+}

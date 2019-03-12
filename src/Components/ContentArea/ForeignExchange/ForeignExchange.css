@@ -1,0 +1,190 @@
+.gm-news-list {
+    padding: 10px 0 0;
+}
+.gm-news-list ul {
+    list-style: none;list-style: none;
+    padding: 0;
+}
+.gm-news-list ul li {
+    position: relative;
+}
+.gm-news-list ul li i {
+    position: absolute;
+    right: -8px;
+    top: 6px;
+    color: #888888;
+}
+.gm-news-list ul li a {
+    font-size: 12px;
+    color: #000000;
+}
+.gm-news-list ul li a:hover {
+    color: #31a0ef;
+}
+.gm-news-list ul li:hover .gm-news-list i {
+    color: #31a0ef;
+}
+.gm-news-sec {
+    padding-bottom: 0;
+}
+.foreignexchange-table-wrapper {
+    overflow-x: scroll;
+    margin-left: 166px;
+}
+.foreignexchange-table table tr {
+    position: relative;
+}
+.fx-company-logo {
+    position: absolute !important;
+    left: 0;
+    width: 167px;    
+}
+.company-title {
+    height: 85px;
+}
+.border-none {
+    border: 0 !important;
+}
+.fx-company-logo img {
+    height: 26px;
+}
+.foreignexchange-company-logo {
+    width: 20%;
+    float: left;
+}
+.foreignexchange-company-logo tr th {
+    padding: 10px;
+}
+.foreignexchange-table {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+.foreignexchange-title {
+    text-align: center;
+}
+.foreignexchange-title h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.foreignexchange-title p {
+    font-size: 12px;
+    font-weight: 500;
+}
+.foreignexchange-table table tr th, .foreignexchange-table table tr td {
+    border: 1px solid #e3e3e3;
+    text-align: center;
+    padding: 5px;
+    vertical-align: middle;
+}
+.foreignexchange-table table tr th {
+    font-weight: bold;
+}
+.foreignexchange-table table tr td {
+    font-size: 11px;
+    font-weight: 400;
+}
+.foreignexchange-table table tr th span img {
+    float: right;
+}
+.foreignexchange-table table tr th span {
+    vertical-align: -webkit-baseline-middle;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: auto;
+    overflow: auto;
+  }
+
+  tr.fe-title > td {
+    font-weight: 500;
+    font-size: 10px !important;
+  }
+  .fe-red {
+      color: #e3362c;
+  }
+  .fe-green {
+      color: #33a746;
+  }
+  .sm-widget {
+    margin-top: 100px;
+}
+.fe-slide-box {
+    width: 15%;
+    float: left;
+    background-color: #999999;
+    padding: 5px;
+    border-radius: 2px;
+    margin-right: 15px;
+}
+.fe-slide-box-red {
+    background-color: #e3352b;
+}
+.fe-slide-box-green {
+    background-color: #32a745;
+}
+.fe-slide-box p {
+    font-size: 9px;
+    color: #ffffff;
+    margin: 0;
+    line-height: 9px;
+}
+.fe-slide-box .fe-slide-box-top {
+    text-align: left;
+    padding-bottom: 5px;
+}
+.fe-slide-box .fe-slide-box-bot {
+    text-align: right;
+}
+.fe-tab-info {
+    position: relative;
+}
+.fe-tab-info a {
+    font-size: 12px;
+}
+.fe-tab-info p {
+    line-height: 12px;
+    margin: 0;
+}
+
+.fe-slider-tabs {
+    position: relative;
+    z-index: 1000;
+}
+.fe-slider-tabs .gm-pills-tabs li a:hover, .fe-slider-tabs .gm-pills-tabs li a.active {
+    padding: 0 5px;
+    font-size: 11px;
+}
+.fe-slider-tabs li a {
+    font-size: 11px;
+    padding: 0 5px;
+}
+.fe-carousel-slider .controls-top a  {
+    background-color: transparent !important;
+    color: #888888 !important;
+}
+.fe-carousel-slider .controls-top {
+    position: absolute;
+    top: 12% !important;
+    margin-left: -50px !important;
+    width: 114% !important;
+}
+.foreign-exchange-slider {
+    padding: 7px 0;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+.fe-widget {
+    margin-top: 98px;
+}
+
+
+
+
+
+
+
+
+
+

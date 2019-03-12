@@ -1,0 +1,259 @@
+.stockmarket-page {
+    width: 100%;
+}
+.stockmarket-page .container {
+    max-width: 100%;
+}
+.clr-gold {color: #bb7902;}
+.sm-tabs {
+    margin-bottom: 20px;
+}
+.sm-indexsummary table th, .sm-indexsummary table td {
+    line-height: 17px;
+}
+.stockmarket-table p {
+    font-size: 11px;
+}
+.stockmarket-table table {
+    margin: 0;
+}
+.stockmarket-table table.table th, .stockmarket-table table.table td {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 10px;
+    padding: 0 5px;
+    font-weight: 500;
+    border: 1px solid #f3f3f3;
+}
+.stockmarket-table .table td, .stockmarket-table .table th {
+    padding: 0px;
+}
+.stockmarket-table th img {
+    max-width: 30px;
+}
+.sm-pills-tabs li a:hover, .sm-pills-tabs li a.active {
+    border-bottom: solid 2px #ffffff;
+    font-weight: bold;
+    background-color: #267bb7;
+    color: #ffffff;
+    font-size: 26px;
+    padding: 17px 45px 7px;
+    border-radius: 15px 15px 0 0;
+    
+}
+.sm-pills-tabs li a {
+    border-bottom: solid 2px #ffffff;
+    font-weight: bold;
+    background-color: #c3d1db;
+    color: #a2adb6;
+    font-size: 26px;
+    padding: 17px 45px 7px;
+    border-radius: 15px 15px 0 0;
+    margin: 0 2px 0 0;
+}
+.mainmarket-table table.table th { 
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    padding: 0 4px;
+    border: 1px solid;
+    border-top: none;
+}
+.mainmarket-table table.table th:first-child {
+    border-left: none;
+}
+.mainmarket-table table.table th:last-child {
+    border-right: 1px solid #0170c0;
+}
+.mainmarket-table thead {
+    background-color: #006fc0;
+}
+.mainmarket-table tbody > tr.mainmarket-title td {
+    border: 0px;
+    color: #0170c0;
+    text-align: left;
+    padding: 0 0 0 3rem;
+    border-right: 1px solid #f1f1f1;
+}
+.mainmarket-table table th thead tr th {
+    border: none;
+}
+.mainmarket-table table.table td {
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    color: #000;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.span-border span:first-child {
+    border-right: 1px solid #f1f1f1;
+    padding: 7px 11px 7px 0px;
+}
+.span-border span:last-child {
+    padding: 7px 0px 7px 11px;
+}
+.mainmarket-table p {
+    margin: 0;
+}
+.mainmarket-table span {
+    padding: 0px 5px;
+}
+.gm-pills-tabs {
+    border-bottom: 1px solid #f2f2f2;
+}
+.gm-pills-tabs li a:hover, .gm-pills-tabs li a.active {
+    color: red;
+    border-bottom: 1px solid red;
+    padding: 0px 8px;
+}
+.gm-pills-tabs li a {
+    font-size: 12px;
+    padding: 0px 8px;
+}
+.gm-detail-top {
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+.gm-detail-bottom {
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+.gm-detail-tittle span {
+    border-bottom: 1px solid #f2f2f2;
+    width: 100%;
+    float: left;
+    padding: 7px 0 0;
+    font-size: 12px;
+}
+.gm-detail {
+    float: left;
+    width: 100%;
+}
+
+.gm-detail a, .gm-detail p {
+    font-size: 12px;
+    margin: 0;
+}
+.gm-detail .progress {
+    background-color: transparent;
+    border-radius: 0px;
+    height: 14px !important;
+} 
+.gm-detail .progress-bar {
+    background-color: #32a745;
+    border-radius: 0px;
+}
+.gm-detail span {
+    font-size: 12px;
+    color: #33a746;
+    margin-right: 5px;
+    float: left;
+    line-height: 18px;
+}
+.gm-detail .gm-progress {
+    padding: 4px 0 0;
+}
+.gm-detail-bottom {
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.gm-detail-bottom .progress {
+    transform: rotate(180deg);
+    width: 75%;
+    float: left;
+}
+.gm-detail-bottom .progress-bar {
+    background-color: #e3352b;
+}
+.gm-detail-bottom .gm-detail span {
+    font-size: 12px;
+    color: #e3362c;
+    margin: 0 0 0 5px;
+    float: right;
+    line-height: 18px;
+    width: 26px;
+}
+.gm-news-sec {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+.gm-news {
+    position: relative;
+}
+.gm-news i {
+    position: absolute;
+    right: -8px;
+    top: 40%;
+    color: #888888;
+}
+.gm-news p {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+}
+.gm-news a {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+    color: #000000;
+}
+.gm-news a:hover {
+    color: #0170c0;
+}
+.gm-cash img {
+     float: left;
+     margin-left: -15px;
+     padding-bottom: 20px;
+}
+.gm-brands {
+    padding-bottom: 20px;
+}
+.gm-lead a {
+    display: block;
+    line-height: 20px;
+    color: #000000;
+    padding: 5px 3px;
+    font-weight: 600;
+    background-color: #e8e8e8;
+}
+.gm-post-sec, .gm-post-sec img {
+    float: left;
+    width: 100%;
+}
+.gm-post-sec h5 {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+.gm-post-sec p {
+    font-size: 12px;
+    line-height: 18px;
+}
+.sm-add {margin-bottom: 20px;}
+.sm-add, .sm-add img {
+    float: left;
+    width: 100%;
+}
+.sm-widget {
+    margin-top: 52px !important;
+}
+.sm-update-date {
+    text-align: center;
+    width: 30%;
+    padding: 12px;
+}
+.sm-update-date p {
+    margin: 0;
+    line-height: 13px;
+    text-align: center;
+}

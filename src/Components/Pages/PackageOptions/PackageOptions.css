@@ -1,0 +1,100 @@
+
+
+.po-row-position {
+    height: 100vh;
+    margin-top: -62px;
+}
+.rh-navbar {
+    position: relative;
+    z-index: 100;
+}
+.po-option {
+    background-color: #e3efff;
+    border-radius: 0 0 0 22rem;
+    text-align: center;
+}
+.po-option img {
+    max-width: 430px;
+    margin: 0px;
+    padding: 100px 0 0;
+}
+.package-sec {
+    padding: 40px 0 0;
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+}
+.package-logo {
+    text-align: center;
+}
+.package-logo img {
+    max-width: 160px;
+    margin: 0 0 10px 0;
+}
+.package-logo p {
+    font-size: 16px;
+}
+.package-plan {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 0 0 20px;
+     
+}
+.package-plan h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+.package-plan p {
+    line-height: 12px;
+    font-size: 12px;
+    margin: 0 0 6px;
+}
+.po-copyright {
+    text-align: center;
+}
+.po-copyright p {
+    font-size: 12px;
+
+}
+.po-footer {
+    text-align: center;
+}
+.po-footer ul {
+    list-style: none;
+    padding: 0px;
+}
+.po-footer ul li {
+    display: inline-block;
+    margin: 0 14px;
+}
+.po-footer ul li a {
+    font-size: 12px;
+    color: #000;
+
+}
+.po-footer ul li a:hover {
+    color: #e3efff;
+}
+.po-btn {
+    text-align: center;
+    margin: 0 0 10px;
+}
+.po-btn .btn-default {
+    background-color: #a9a9a9 !important;
+    color: #000000  !important;
+    font-size: 13px;
+    border-radius: 10px !important;
+    box-shadow: none;
+    font-weight: bold;
+    text-transform: unset;
+    padding: 0.50rem 2.14rem;
+    width: 100%;
+    margin: 0px;
+}
+.po-btn .btn-default:hover {
+    background-color: #33a4f4 !important;
+    color: #ffffff !important;
+}

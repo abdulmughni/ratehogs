@@ -1,0 +1,901 @@
+.sponsored-products .container-fluid {
+    max-width: 1600px;
+}
+
+.sponsored-products .rh-heading-style h3 {
+    font-weight: 400;
+    text-align: left;
+}
+
+.rh-heading-style {
+    padding: 20px 0;
+}
+
+.rh-heading-style h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.rh-heading-style h3 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.rh-heading-style h4 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.rh-heading-style p {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.rh-heading-style p.banner-caption {    
+    margin: 25px 0;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.grey-section {
+    background-color: #f5f5f5;
+}
+
+.rh-heading-style .heading-caption {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.rh-carousel-slider .col-md-2, .rh-carousel-slider .col-md-3, .rh-carousel-slider .col-md-4, .rh-carousel-slider .col-md-6 {
+    float: left;
+}
+
+.rh-carousel-slider .controls-top {
+    position: absolute;
+    top: calc(50% - 45px);
+    width: 100%;
+    z-index: 1000;
+}
+
+.rh-carousel-slider .controls-top a {
+    padding: 10px 20px;
+    background-color: #31a0efb0;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 4px;
+    opacity: 0;
+}
+
+.rh-carousel-slider .controls-top a:hover {
+    background-color: #31a0ef;
+    color: #ffffff;
+}
+
+.rh-carousel-slider:hover .controls-top a {
+    opacity: 1;
+}
+
+.rh-carousel-slider .controls-top a:first-child {
+    float: left;
+}
+
+.rh-carousel-slider .controls-top a:last-child {
+    float: right;
+}
+
+.rh-carousel-slider .card {
+    background: transparent;
+    box-shadow: none !important;
+}
+
+.rh-carousel-slider .card img {
+    width: 100%;
+}
+
+.rh-carousel-slider .card-body {
+    padding: 15px;
+    position: relative;
+    min-height: 200px;
+}
+
+.rh-carousel-slider .card-title {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.rh-carousel-slider .rh-arrow-button {
+    position: absolute;
+    bottom: 0;
+}
+
+.rh-arrow-button {
+    padding: 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    width: 100%;
+}
+
+.rh-arrow-button span {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.rh-arrow-button:hover {
+    color: #31a0ef;
+}
+
+.rh-arrow-button i {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+}
+
+.rh-arrow-button:hover i {
+    right: 45px;
+}
+
+.rh-slides-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rh-slides-list li:before {
+    content: '-';
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.rh-slides-list li {
+    font-size: 16px;
+    color: #444444;
+}
+
+.rh-service-slider {
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+}
+
+.carousel-multi-item .carousel-item {
+    display: flex !important;
+}
+
+.rh-services-banner {
+    padding: 20px 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.rh-services-banner .row-style {
+    margin-bottom: 20px;
+}
+
+.service-caption {
+    font-size: 26px;
+    line-height: 39px;
+}
+
+.rh-services-box {
+    box-shadow: none;
+    margin-bottom: 30px;
+}
+
+.rh-services-box .card-body {
+    padding: 20px 0;
+}
+
+.rh-services-box img {
+    max-height: 105px;
+}
+
+.rh-services-box .card-title {
+    font-size: 26px;
+}
+
+.rh-services-box .card-text {
+    font-size: 17px !important;
+    line-height: 30px;
+    color: #444444 !important;
+    margin: 15px 0;
+}
+
+.rh-img-talk img {
+    display: inline-block;
+}
+
+.rh-img-talk .talk-caption {
+    padding: 40px 30px;
+    border: solid 1px #cccccc;
+    display: inline-block;
+    max-width: 320px;
+    margin-left: 15px;
+    position: relative;
+    top: 115px;
+}
+
+.rectangle-box {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    left: -10px;
+    transform: rotate(45deg);
+    border-left: solid 1px #cccccc;
+    border-bottom: solid 1px #cccccc;
+}
+
+.talk-caption strong, .talk-caption small {
+    display: block;
+}
+
+.rh-about-boxes {
+    text-align: center;
+}
+
+.rh-about-boxes img {
+    max-width: 160px;
+}
+
+.rh-pricing-labels span {
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+}
+
+.rh-pricing-labels .col-md-12, .rh-pricing-table .col-md-12 {
+    padding: 10px 15px;
+}
+
+.rh-pricing-labels {
+    padding-top: 15px;
+}
+
+.rh-pricing-labels .p-table-product {
+    margin-top: 15px;
+    min-height: 225px;
+}
+
+.rh-pricing-labels .col-md-12 {
+    display: flex;
+    align-items: center;
+}
+
+.rh-pricing-table .col-md-12:last-child {
+    padding: 0;
+}
+
+.rh-pricing-table {
+    text-align: center;
+}
+
+.rh-pricing-table .rh-title {
+    font-weight: bold;
+    font-size: 20px;
+    background: #efce4a;
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+}
+
+.rh-pricing-table .rh-title.grey-color {
+    background: #e6e6e6;
+}
+
+.rh-pricing-product {
+    position: relative;
+}
+
+.rh-pricing-product .label-heart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 38px;
+}
+
+.rh-pricing-product .p-img {
+    max-width: 160px;
+}
+
+.rh-pricing-product .p-title {
+    font-size: 20px;
+}
+
+.startsRating span {
+    display: block;
+}
+
+.startsRating .stars {
+    font-size: 25px;
+}
+
+.startsRating .stars label {
+    margin-bottom : 0;
+}
+
+.startsRating .starsNumbers {
+    color: #0098fe;
+    font-size: 14px;
+}
+
+.rh-pricing-col {
+    background-color: white;
+    width: 100%;
+    margin: 0 15px;
+    padding: 15px 0 0;
+    border: solid 1px #efce4a;
+}
+
+.rh-pricing-col.rh-grey-theme {
+    border: solid 1px #c1c1c1;
+    -webkit-box-shadow: -1px 0px 8px 1px rgba(0,0,0,0.09);
+    -moz-box-shadow: -1px 0px 8px 1px rgba(0,0,0,0.09);
+    box-shadow: -1px 0px 8px 1px rgba(0,0,0,0.09);
+}
+
+.rh-pricing-col .compare-pin {
+    color: rgb(224, 185, 7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    line-height: 20px;
+}
+
+.rh-pricing-col.rh-grey-theme .compare-pin {
+    color: #cccccc;
+}
+
+.rh-pricing-col .compare-pin i {
+    font-size: 20px;    
+}
+
+.rh-pricing-col .compare-pin span {
+    display: inline-block;
+    width: 100%;
+    color: #333333;
+    font-size: 14px;
+}
+
+.rh-pricing-col .col-md-12 {
+    border-bottom: solid 1px #cccccc;
+}
+
+.p-tik {
+    padding: 9px;
+    background-color: #6ac259;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.p-never {
+    background-color: #db0a0a; 
+}
+
+.p-table-button {
+    background: #efce4a !important;
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    color: #000000 !important;
+    font-size: 16px;
+}
+
+.p-table-button.rh-grey-theme {
+    background: #4b5b65 !important;
+    color: #ffffff !important;
+}
+
+.p-m-lable {
+    font-size: 14px;
+    color: #9a7c00;
+}
+
+.reviews-more .rh-services-box {
+    margin-bottom: 0;
+}
+
+.reviews-more .rh-services-box .card-body {
+    min-height: 166px;
+}
+
+.reviews-more .rh-services-box .view {
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.reviews-more .rh-services-box img {
+    max-width: 200px;
+}
+
+.reviews-more .rh-services-box .rh-arrow-button {
+    position: absolute;
+    bottom: 15px;
+}
+
+.faq-section .border-box {
+    min-height: 267px;
+}
+
+.border-box {
+    padding: 20px;
+    border: solid 1px #cccccc;
+    border-radius: 15px;   
+}
+
+.border-box h3 {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+
+.border-box p {
+    margin-bottom: 0;
+}
+
+.hs-pills-tabs {
+    margin-bottom: 20px;
+}
+
+.hs-pills-tabs li a {
+    color: #222222;
+    font-size: 20px;
+}
+
+.hs-pills-tabs li a:hover, .hs-pills-tabs li a.active {
+    border-bottom: solid 2px #33a4f4;
+    font-weight: bold;
+}
+
+.mortgage-table-label span {
+    text-align: center;
+}
+
+.mortgage-table-label .p-table-product {
+    margin-top: 50px;
+    min-height: 238px;
+}
+
+.p-height-2 {
+    min-height: 75px;
+}
+
+.p-height-3 {
+    min-height: 114px;
+}
+
+.p-height-4 {
+    min-height: 150px;
+}
+
+.p-height-5 {
+    min-height: 189px;
+}
+
+.p-height-6 {
+    min-height: 227px;
+}
+
+.p-height-7 {
+    min-height: 266px;
+}
+
+.p-height-8 {
+    min-height: 310px;
+}
+
+.mortgage-p-slide .rh-pricing-product {
+    min-height: 200px;
+}
+
+.page-main-section img {
+    max-width: 500px;
+    float: right;
+    width: 100%;
+}
+
+.page-main-section .width-400 {
+    max-width: 400px;
+}
+
+.page-main-section .width-580 {
+    max-width: 580px;
+}
+
+.rh-product-detail .card-logo {
+    max-width: 250px;
+}
+
+.card-with-detail h3 {
+    margin-bottom: 20px;
+}
+
+.card-with-detail p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.product-rewards-box {
+    color: #ffffff;
+    background-color: #ed0622;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.product-rewards-box .reward-desc {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.product-rewards-box .reward-l-b {
+    font-size: 55px;
+    line-height: 50px;
+    margin: 10px 0 0;
+}
+
+.product-rewards-box .award-icon {
+    font-size: 70px;
+    text-align: right;
+}
+
+.large-icon-list {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.large-icon-list .list-icon {
+    margin-right: 20px;
+}
+
+.large-icon-list .list-icon i {
+    font-size: 20px;
+    border: solid 1px #444444;
+    padding: 15px;
+    border-radius: 33px;
+}
+
+.large-icon-list .list-desc {
+    font-size: 19px;
+    color: #444444;
+}
+
+.star-check {
+    color: #efce4a;
+}
+
+.total-reviews-range .stars-range {
+    margin-right: 15px;
+}
+
+.total-reviews-range .average-stars {
+    color: #3ba4ef;
+}
+
+.ratings-progress {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ratings-progress span {
+    display: inline-block;
+    color: #3ba4ef;
+}
+
+.ratings-progress .progress-wrapper {
+    max-width: 340px;
+    width: 100%;
+    margin: 0 15px;
+}
+
+.progress-wrapper .progress {
+    border-radius: 33px;
+    border: solid 1px #e0e0e0;
+}
+
+.progress-wrapper .progress-bar {
+    background: #efce4a; 
+}
+
+.reviews-heading h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.review-comment {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.review-comment:last-child {
+    margin-bottom: 0;
+}
+
+.review-comment .comment-avatar {
+    margin-right: 20px;
+    max-width: 55px;
+    border-radius: 100%;
+}
+
+.review-comment .comment-date {
+    float: right;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.comment-heading p {
+    margin-bottom: 0;
+}
+
+.stock-invest-info .row {
+    margin-bottom: 40px;
+}
+
+.stock-invest-info .row:last-child {
+    margin-bottom: 0;
+}
+
+.calc-total-payment {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.calc-total-payment .pay-head {
+    font-size: 20px;
+}
+
+.calc-total-payment .payment {
+    font-size: 35px;
+    color: rgb(133, 133, 133);
+}
+
+.calc-total-payment .payment.green-pay {
+    color: rgb(0, 170, 0);
+}
+
+.calc-monthly-payment h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.row-two-col {
+    margin-bottom: 13px;
+    padding-bottom: 13px;
+    border-bottom: solid 1px #d8d8d8;
+    font-size: 18px;
+}
+
+.row-two-col:last-child {
+    border: 0;
+}
+
+.row-two-col span {
+    width: calc(50%);
+    display: inline-block;    
+}
+
+/* Range Slider */
+
+.range-slider {
+    padding: 20px;
+    background: #fbfbfb;
+    border: solid 1px #e2e2e2;
+    border-radius: 8px;
+}
+
+.range-slider h3 {
+    margin-bottom: 90px;
+    font-size: 22px;
+}
+
+.range-value .rangeslider {
+    box-shadow: none;
+}
+
+.rangeslider-horizontal .rangeslider__fill {
+    background-color: #00478b;
+}
+
+.rangeslider-horizontal {
+    height: 8px;
+    box-shadow: none;
+}
+
+.rangeslider-horizontal .rangeslider__handle {
+    width: 15px;
+    height: 15px;
+    background: #ffdb18;
+    border: none;
+    -webkit-box-shadow: 0px 0px 8px 5px rgba(231,166,26,0.27);
+    -moz-box-shadow: 0px 0px 8px 5px rgba(231,166,26,0.27);
+    box-shadow: 0px 0px 8px 5px rgba(231,166,26,0.27);
+}
+
+.rangeslider-horizontal .rangeslider__handle:after {
+    display: none;
+}
+
+.rangeslider .rangeslider__handle-tooltip {
+    width: auto;
+    padding: 10px;
+    height: auto;
+    background: #ffffff;
+    border: solid 1px #004689;
+    color: #004689;
+    opacity: 1;
+    font-size: 18px;
+    top: -67px;
+}
+
+.rangeslider .rangeslider__handle-tooltip span {
+    margin-top: 0;
+}
+
+.row-payment-info {
+    background: #f4f4f4;
+    text-align: right;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.row-payment-info:hover {
+    background: #dfdfdf;
+}
+
+.row-payment-info:last-child {
+    margin-bottom: 0;
+}
+
+.row-payment-info .col {
+    padding: 10px;
+    border-right: solid 1px #cccccc;
+}
+
+.row-payment-info .col:last-child {
+    border: 0;
+}
+
+.sky-blue-color {
+    color: #00aeef;
+}
+
+.pay-year i {
+    background-color: #00aeef;
+    color: #ffffff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    line-height: 27px;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.pay-year span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #00aeef;
+    position: relative;
+    top: 3px;
+}
+
+.pay-info-box span {
+    color: #00aeef;
+}
+
+.pay-info-box {
+    line-height: 24px;
+}
+
+.pay-info-box div {
+    display: inline-block;
+}
+
+.pay-info-box .pay-tooltip {
+    color: #00aeef;
+    margin-left: 10px;
+}
+
+.banner-m-t {
+    margin-top: 80px;
+}
+
+.collapse-months {
+    padding: 10px 25px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin: 0 0 20px;
+}
+
+.collapse-months .pay-info-box .pay-tooltip, .collapse-months .pay-info-box span, .collapse-months .pay-year span {
+    color: #35a084;
+}
+
+.collapse-months .row-payment-info {
+    cursor: auto;
+}
+
+.collapse-months .pay-year span {
+    font-size: 18px;
+}
+
+@media (max-width: 1080px) {
+    .reviews-more .col {
+        flex-basis: auto;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .rh-heading-style h3 {
+        font-size: 24px;
+    }
+
+    .rh-heading-style {
+        padding: 0;
+    }
+
+    .rh-heading-style p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .rh-heading-style p.banner-caption {    
+        margin: 15px 0;
+    }
+
+    .section {
+        padding: 40px 10px;
+    }
+
+    .rh-services-banner {
+        padding: 20px;
+    }
+
+    .rh-service-slider .col-md-6 {
+        width: 100%;
+    }
+
+    .carousel-multi-item .carousel-item {
+        display: inline-block !important;
+    }
+
+    .service-caption {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .rh-img-talk .talk-caption {
+        top: 0;
+    }
+
+    .rh-pricing-table {
+        margin-bottom: 30px;
+    }
+
+    .rh-carousel-slider .controls-top {
+        position: relative;
+        top: 0;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    .rh-carousel-slider .controls-top a {
+        opacity: 1;
+    }
+
+    .reviews-more .col {
+        max-width: 100%;
+    }
+    
+}
